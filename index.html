@@ -1,0 +1,195 @@
+<!DOCTYPE html> <!--絶対書く-->
+<head>
+    <meta charset="UTF-8"> <!--絶対書く-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--スマホでも表示できるようになるコマンド-->
+    <meta name="robots" content="noindex" /> <!--ブラウザ上に公開しないコマンド-->
+    <title>somo's Portfolio</title> <!--タブ部分に表示される文字-->
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" /> <!--HTMLとCSSファイルを対応させるコマンド。複数の場合記述順に適用される。必須-->
+    <link href="sp.css" rel="stylesheet" type="text/css" media="screen and (min-width: 768px)" />
+    <link rel="stylesheet" type="text/css" media="screen and (min-width: 640px)" href="reset.css" >
+    <link rel="icon" type="image/png" href="./img/favicon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+</head>
+<body>
+    <!-- ヘッダー -->
+    <header>
+        <a href="index.html">somo's works</a> <!-- hanako's worksをクリックするとindex.htmlに遷移するリンク -->
+        <nav>   <!-- ナビゲーションタグ。グループを作るタグ。 -->
+            <ul>
+                <li><a href="#about">About</a></li>
+				<li><a href="#skills">Skills</a></li>
+				<li><a href="#works">Works</a></li>
+				<li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- メインビジュアル -->
+    
+    <div class="wave"> <!--波を線画-->
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" width="100%" height="300px">
+            <path d="M 0,0 v 100,0 q 150,50 300,0 t 300,0 q 150,50 300,0 v 0,-100 Z" />
+        </svg>
+    </div>
+    <div class="wave2">
+        <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="167" viewBox="0 0 2000 167" fill="none">
+            <path d="M540.033 126C360.022 176.4 180.011 176.4 0 126V0H16201V126C16015.9 81 15835.9 81 15661 126C15481 173.7 15300.9 173.7 15120.9 126C14936.1 78.3 14756.1 78.3 14580.9 126C14400.9 176.4 14220.9 176.4 14040.9 126C13856.3 75.6 13676.3 75.6 13500.8 126C13320.8 179.1 13140.8 179.1 12960.8 126C12788.2 72.9 12608.2 72.9 12420.8 126C12240.8 175.05 12060.7 175.05 11880.7 126C11695.3 76.95 11515.3 76.95 11340.7 126C11160.7 178.2 10980.7 178.2 10800.7 126C10623.9 73.8 10443.9 73.8 10260.6 126C10080.6 176.4 9900.61 176.4 9720.6 126C9536.74 75.6 9356.73 75.6 9180.57 126C9000.56 178.65 8820.54 178.65 8640.53 126C8464.54 73.35 8284.53 73.35 8100.5 126C7920.49 176.4 7740.48 176.4 7560.47 126C7374.46 75.6 7194.44 75.6 7020.43 126C6840.42 180 6660.41 180 6480.4 126C6302.7 72 6122.69 72 5940.37 126C5760.36 178.65 5580.34 178.65 5400.33 126C5235.62 73.35 5055.61 73.35 4860.3 126C4680.29 171 4500.28 171 4320.27 126C4131.34 81 3951.32 81 3780.23 126C3600.22 175.95 3420.21 175.95 3240.2 126C3065.33 76.05 2885.32 76.05 2700.17 126C2520.16 173.25 2340.14 173.25 2160.13 126C1978.44 78.75 1798.43 78.75 1620.1 126C1440.09 174.15 1260.08 174.15 1080.07 126C896.037 77.85 716.026 77.85 540.033 126Z" fill="#D9D9D9"/>
+        </svg>
+    </div>
+    <div class="main-visual">
+    
+        <img src="./img/fuwafuwa.png" class="fuwafuwa1"> <!--動く丸-->
+        <div>
+            <h1>somo's portfolio site</h1>
+            <p>webengineer & uidesigner</p>
+        </div>
+        <img src="./img/fuwafuwa.png" class="fuwafuwa2">
+        <img src="./img/fuwafuwa.png" class="fuwafuwa3">
+    </div>
+    <div class="wave3">
+        <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="167" viewBox="0 0 2000 167" fill="none">
+            <path d="M-14221 40.5C-14401 -9.9 -14581 -9.9 -14761 40.5V166.5H1440V40.5C1254.89 85.5 1074.88 85.5 899.967 40.5C719.956 -7.2 539.944 -7.2 359.934 40.5C175.101 88.2 -4.91016 88.2 -180.1 40.5C-360.11 -9.9 -540.122 -9.9 -720.133 40.5C-904.721 90.9 -1084.73 90.9 -1260.17 40.5C-1440.18 -12.6 -1620.19 -12.6 -1800.2 40.5C-1972.78 93.6 -2152.79 93.6 -2340.23 40.5C-2520.24 -8.55 -2700.26 -8.55 -2880.27 40.5C-3065.71 89.55 -3245.72 89.55 -3420.3 40.5C-3600.31 -11.7 -3780.32 -11.7 -3960.33 40.5C-4137.13 92.7 -4317.14 92.7 -4500.37 40.5C-4680.38 -9.9 -4860.39 -9.9 -5040.4 40.5C-5224.26 90.9 -5404.27 90.9 -5580.43 40.5C-5760.44 -12.15 -5940.46 -12.15 -6120.47 40.5C-6296.46 93.15 -6476.47 93.15 -6660.5 40.5C-6840.51 -9.9 -7020.52 -9.9 -7200.53 40.5C-7386.54 90.9 -7566.56 90.9 -7740.57 40.5C-7920.58 -13.5 -8100.59 -13.5 -8280.6 40.5C-8458.3 94.5 -8638.31 94.5 -8820.63 40.5C-9000.64 -12.15 -9180.66 -12.15 -9360.67 40.5C-9525.38 93.15 -9705.39 93.15 -9900.7 40.5C-10080.7 -4.5 -10260.7 -4.5 -10440.7 40.5C-10629.7 85.5 -10809.7 85.5 -10980.8 40.5C-11160.8 -9.45 -11340.8 -9.45 -11520.8 40.5C-11695.7 90.45 -11875.7 90.45 -12060.8 40.5C-12240.8 -6.75 -12420.9 -6.75 -12600.9 40.5C-12782.6 87.75 -12962.6 87.75 -13140.9 40.5C-13320.9 -7.65 -13500.9 -7.65 -13680.9 40.5C-13865 88.65 -14045 88.65 -14221 40.5Z" fill="#D9D9D9"/>
+        </svg>
+    </div>
+
+    
+
+    <!-- About -->
+    <Section id="about"> <!-- idは一つのサイトで1つまでしか同じ名前を使えない -->
+        <h2>About</h2>
+    <div id="about-name">
+        <h3>曽我 萌</h3>
+        <p>soga moe</p>
+    </div>
+    <div id="about-adress">
+        <p>日本女子大学 理学部 数物情報科学科 情報コース 長谷川ゼミ<br>
+        ✉ somomo.sykt@gmail.com
+        </p>
+    </div>
+    <div id="about-detail">
+        <p> <!--brで改行できる-->
+            神奈川県在住の大学三年生。大学で情報学を学びながらUIデザインを勉強中。<br>粘り強く探求すること、人と関わりながらチームに貢献することが好きです。
+        </p>
+        <img src="./img/kao.jpg">
+    </div>
+    <div id="about-vision">
+        <div class="vision-list">
+            <div class="vision-item">
+                <img src="./img/1.png">
+                <p>様々なワークに自ら挑戦し、多くの経験を得ることを大切にしています
+            </div>
+            <div class="vision-item">
+                <img src="./img/2.png">
+                <p>様々な人の気持ちに寄り添えるクリエイターを目標として掲げています</p>
+            </div>
+            <div class="vision-item">
+                <img src="./img/3.png">
+                <p>プログラミングとデザインの双方向から物事を考え、アプローチします</p>
+            </div>                       
+        </div>
+        <div class="more">
+            <a href="profile.html"><!--ボタンからプロフィール詳細に飛ぶ-->
+                <button>view more</button>
+            </a> 
+        </div>
+    </div>
+    </Section>
+
+    <!-- Skills -->
+    <Section id="skills">
+        <h2>Skills</h2>
+        <div class="skill-list">
+            <div class="skill-item">
+                <img src="./img/Figma.png">
+                <p>Figma</p>
+            </div>
+            <div class="skill-item">
+                <img src="./img/css.png">
+                <p>HTML/CSS</p>
+            </div>
+            <div class="skill-item">
+                <img src="./img/Python.png">
+                <p>Python</p>
+            </div>
+            <div class="skill-item">
+                <img src="./img/illustrator.png">
+                <p>Illustrator</p>
+            </div>
+            <div class="skill-item">
+                <img src="./img/Photoshop.png">
+                <p>Photoshop</p>
+            </div>
+            <div class="skill-item">
+                <img src="./img/blender.png">
+                <p>Blender</p>
+            </div>
+        </div>
+    </Section>
+
+    <!-- Works -->
+    <nav id="works">
+        <h2>Works</h2>
+        <div class="work-list">
+            <a class="work-item" href="metapa.html">
+                <img src="./img/metapa.jpg">
+                <p></p>
+                <!-- <a class="button1" href="">view more</a> -->
+            </a>
+            <a class="work-item" href="ToDo.html">
+                <img src="./img/ToDo.jpg">
+                <p></p>
+                <!--<a class="button2" href="">view more</a> -->
+            </a>
+            <a class="work-item" href="huku.html">
+                <img src="./img/huku.jpg">
+                <p></p>
+                <!--<a class="button3" href="">view more</a> -->
+            </a>
+            <a class="work-item" href="dev.html">
+                <img src="./img/dev.jpg" >
+                <p></p>
+                <!--<a class="button4" href="">view more</a> -->
+            </a>
+            <a class="work-item" href="metamon.html">
+                <img src="./img/metamon.jpg" >
+                <p></p>
+               <!-- <a class="button5" href="">view more</a> -->
+            </a>
+            <a class="work-item"  href="sketch.html">
+                <img src="./img/sketch.jpg" >
+                <p></p>
+               <!-- <a class="button6" href="">view more</a> -->
+            </a>
+
+
+        </div>
+    </nav>
+
+    <!-- Contact -->
+    <div id="contact">
+        <h2>contact</h2>
+        <p>お気軽にお問い合わせください</p>
+        <div class="adress">
+            <a href="mailto:somomo.sykt@gmail.com"><!--ボタンからメール画面に飛ぶ-->
+                <button>somomo.sykt@gmail.com</button>
+            </a> 
+        </div>
+    </div>
+
+
+    <!-- フッター -->
+    <footer>
+        <p>&copy; 2023 soga moe</p> <!-- 著作権表示の記入(@copy tech hanako) -->
+    </footer>
+    
+</body>
+</html>
