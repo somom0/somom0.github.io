@@ -162,35 +162,7 @@ a:hover::after {
     font-family: 'Poiret One';
 }
 
-.wave {
-	overflow:hidden;
-	background-color:transparent;
-    width: 100%;
-}
-.wave2 {
-    margin: 0px;
-    padding: 0px;
-    width: 100%;
-    
-}
-.wave3 {
-    margin-left: 0;
-    padding-left: 0;
-}
 
-.wave2 svg path {
-	fill:#3168dd;
-	animation:wave linear 10s infinite;
-}
-
-@keyframes wave {
-	from {
-		transform:translate(0);
-	}
-	to {
-		transform:translate(x100);
-	}
-}
 
 #about h3 {
     margin-right:10px;
@@ -502,6 +474,29 @@ video {
 }
 
 
+/*--------------------------------------------------
+各ワークぺージ
+--------------------------------------------------*/
+.arrowbutton-right{    /*横画面遷移ボタン*/
+    width: auto;
+    position:fixed;
+    right:60px;
+    text-align: center;  /*2つのオブジェクトを縦中央揃え*/
+    padding: 300px 0;
+
+  }
+  .arrowbutton-left{    /*横画面遷移ボタン*/
+    width: auto;
+    position:fixed;
+    left:60px;
+    text-align: center;  /*2つのオブジェクトを縦中央揃え*/
+    padding: 300px 0;
+
+  }
+.arrowbutton:hover{
+    opacity: 50%;
+}
+
 
 /*--------------------------------------------------
 フッター
@@ -547,6 +542,4 @@ h2{
 h3 {
     font-size:26px;
 }
-
-
 
